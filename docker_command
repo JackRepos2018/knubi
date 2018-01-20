@@ -1,0 +1,14 @@
+#This command Im Evgen Create and Run Docker Container in WEB Browser  0.0.0.0:80  
+docker run --detach --publish 8090:8090 cptactionhank/atlassian-confluence:eap
+
+#Also we make run this command too:
+
+docker run --detach --publish 8090:8090 80c51226d956
+
+#or 
+
+docker run --detach --p 8090:8090 80c51226d956
+
+
+
+

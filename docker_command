@@ -1,4 +1,4 @@
-#This command Im Evgen Create and Run Docker Container in WEB Browser  0.0.0.0:80  
+#This command Im Evgen Create and Run Docker Container in WEB Browser  0.0.0.0:8090 port 
 docker run --detach --publish 8090:8090 cptactionhank/atlassian-confluence:eap
 
 #Also we make run this command too:
